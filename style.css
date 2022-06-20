@@ -9,13 +9,15 @@
 }
 
 .carousel .carousel-item img {
-    max-width: 600px;
+    max-width: 800px;
+    width: 600px;
     max-width: 100%;
     height: auto;
 }
 
 .carousel .carousel-item-visible {
     display: block;
+    animation: fadeVisibility 0.5s;
 }
 
 
@@ -48,4 +50,15 @@
 
 .carousel .carousel-actions button#carousel-btn-next {
     margin-right: 20px;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
