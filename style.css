@@ -3,7 +3,8 @@
     position: relative;
 }
 
-.carousel .carousel-item {
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
     display: none;
 }
 
@@ -16,6 +17,8 @@
 .carousel .carousel-item-visible {
     display: block;
 }
+
+
 
 .carousel .carousel-actions {
     display: flex;
